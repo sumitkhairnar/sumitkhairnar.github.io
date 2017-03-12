@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
+
 <title>registration form</title>
 </head>
 <body>
 <form id="formal" name="formal" method="post" action="index.php">
 <div align="center"
-<table width="426" height="235" border="1" align="center" cellpadding="8" cellspacing="0">
+<form width="426" height="235" border="1" align="center" cellpadding="8" cellspacing="0">
   <caption>
     <h2>registration form
   </h2>
@@ -35,8 +35,8 @@
       <td colspan="2"><input type="submit" name="submit" id="button" value="Submit" /></td>
     
 	</tr>
-  </tbody>
-</table>
+  
+</form>
 </body>
 </html>
 
