@@ -69,18 +69,7 @@ $email=$_POST['email'];
 $u_name=$_POST['u_name'];
 $password=$_POST['password'];
 
-if($name==''){ 
-echo "<script>alert('Enter Your Name')</script>";
-	} 
-if($email==''){ 
-echo "<script>alert('Enter Your Email')</script>"; 
-	} 
-if($u_name==''){ 
-echo "<script>alert('Enter Your User Name')</script>"; 
-}
-if($password==''){ 
-echo "<script>alert('Enter Your Password')</script>"; 
-} 
+
 else { 
 $query="insert into cm(name,email,u_name,password) value ('$name','$email','$u_name','$password')"; 
 }
