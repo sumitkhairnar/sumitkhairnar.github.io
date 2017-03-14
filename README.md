@@ -71,10 +71,10 @@ $u_name=$_POST['u_name'];
 $password=$_POST['password'];
 
 if($name==''){ 
-	echo "<script>alert('Enter Your Name')</script>";
+echo "<script>alert('Enter Your Name')</script>";
 	} 
 if($email==''){ 
-	echo "<script>alert('Enter Your Email')</script>"; 
+echo "<script>alert('Enter Your Email')</script>"; 
 	} 
 if($u_name==''){ 
 echo "<script>alert('Enter Your User Name')</script>"; 
