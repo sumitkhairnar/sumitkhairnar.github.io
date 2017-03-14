@@ -61,7 +61,6 @@ Returning soon...
 </body> 
 </html>
 <?php 
-
 $con=mysql_connect("localhost","root","") or die (mysql_error()); 
 $db=mysql_select_db('mydata', $con) or die (mysql_error()); 
 if(isset($_POST['submit'])){ 
@@ -89,7 +88,6 @@ if(mysql_query($query)){
 echo "<script>alert('You are Succesfull registered')</script>"; 
 } 
 } 
-
 ?>
 
    
